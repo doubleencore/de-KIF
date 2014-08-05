@@ -1050,6 +1050,7 @@
 					DEBUG,
 					"KIF_XCTEST=1",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
 			};
@@ -1071,6 +1072,7 @@
 					DEBUG,
 					"KIF_XCTEST=1",
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
 			};
@@ -1088,6 +1090,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PREFIX_HEADER = "Classes/KIF-XCTestPrefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
 			};
